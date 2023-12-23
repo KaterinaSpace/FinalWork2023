@@ -34,3 +34,4 @@ void PrintArray(string[] array)
 }
 NewSecondArray(arr1, arr2);
 PrintArray(arr2);
+
