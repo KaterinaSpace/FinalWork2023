@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-20T16:25:51.676Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.732 YaBrowser/23.11.1.732 Yowser/2.5 Safari/537.36" etag="PdiG0dRfA7SvD0hBxcws" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-23T18:40:21.760Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.732 YaBrowser/23.11.1.732 Yowser/2.5 Safari/537.36" etag="l4G6CoY6xPhMsabcb13X" version="22.1.11" type="github">
   <diagram name="Страница — 1" id="rax0nqCCXje8anrDHx_O">
-    <mxGraphModel dx="654" dy="290" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="365" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -35,11 +35,11 @@
             <mxPoint x="414" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s2g8rnF0dsubIWjRQk4w-4" value="string[] arr1 = new string[4] {&quot;1234&quot;, &quot;1567&quot;, &quot;-2&quot;, &quot;computer science&quot;};&#xa;string[] arr2 = new string[arr1.Length];" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="s2g8rnF0dsubIWjRQk4w-4" value="string[ ] arr1 = new string[4] {&quot;1234&quot;, &quot;1567&quot;, &quot;-2&quot;, &quot;computer science&quot;};&lt;br&gt;string[ ] arr2 = new string[arr1.Length];" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="258" y="120" width="312" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="s2g8rnF0dsubIWjRQk4w-12" value="int count = 0&lt;br&gt;int i = 0&lt;br&gt;i &amp;lt; arr.Length&lt;br&gt;i++" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="369" y="206.57" width="90" height="70" as="geometry" />
+        <mxCell id="s2g8rnF0dsubIWjRQk4w-12" value="int count = 0&lt;br&gt;int i = 0&lt;br&gt;i &amp;lt; arr1.Length&lt;br&gt;i++" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="364" y="206.57" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="s2g8rnF0dsubIWjRQk4w-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s2g8rnF0dsubIWjRQk4w-14">
           <mxGeometry relative="1" as="geometry">
@@ -76,7 +76,7 @@
             <mxPoint x="413.5" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s2g8rnF0dsubIWjRQk4w-27" value="string [} arr2 = new string [count]&lt;br&gt;PrintArray(arr1)&lt;br&gt;Console.Write(&quot;-&amp;gt;&quot;)&lt;br&gt;PrintArray(arr2)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="s2g8rnF0dsubIWjRQk4w-27" value="string [ ] arr2 = new string [count]&lt;br&gt;PrintArray(arr1)&lt;br&gt;Console.Write(&quot;-&amp;gt;&quot;)&lt;br&gt;PrintArray(arr2)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="298" y="500" width="231" height="70" as="geometry" />
         </mxCell>
         <mxCell id="s2g8rnF0dsubIWjRQk4w-29" value="end&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
