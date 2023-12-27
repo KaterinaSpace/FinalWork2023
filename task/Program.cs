@@ -11,10 +11,19 @@
 
 
 string[] arr1 = new string[4] {"1234", "1567", "-2", "computer science"};
-string[] arr2 = new string[arr1.Length];
-void NewSecondArray(string[] arr1, string[] arr2)
+
+string[] NewSecondArray(string[] arr1)
 {
 		int count = 0;
+		for (int i = 0; i < arr1.Length; i++)
+		{
+		if(arr1[i].Length <= 3)
+				{
+				count++;
+				}
+		}
+		string[] arr2 = new string[count];
+		count = 0;
 		for (int i = 0; i < arr1.Length; i++)
 		{
 		if(arr1[i].Length <= 3)
@@ -23,15 +32,20 @@ void NewSecondArray(string[] arr1, string[] arr2)
 				count++;
 				}
 		}
+		return arr2;
 }
 void PrintArray(string[] array)
 {
-		for (int i = 0; i < array.Length; i++)
+	Console.Write("[");
+		for (int i = 0; i < array.Length-1; i++)
 		{
-				Console.Write($"{array[i]} ");
-		}
-		Console.WriteLine();
+				Console.Write($"“{array[i]}”, ");
+		}		
+			 Console.Write($"“{array[^1]}”"  + "]"  );
 }
-NewSecondArray(arr1, arr2);
-PrintArray(arr2);
 
+PrintArray(arr1);
+string[] arr2 = NewSecondArray(arr1);
+
+Console.Write("→ ");
+PrintArray(arr2);
